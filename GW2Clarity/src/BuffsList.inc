@@ -122,6 +122,13 @@ const auto g_Buffs = std::to_array<Buff>({
     { 62733, "Elemental Empowerment", 10 },
     { 62939, "Empowering Auras", 5 },
     { 62986, "Hardened Auras", 5 },
+	
+	{ "Elementalist/Evoker" },
+	{ 77175 , "Fox Passive", "Ignite" }, // https://wiki.guildwars2.com/index.php?title=Fox_Passive
+	{ 76922 , "Electric Enchantment", "Hare's_Agility", 5 }, // https://wiki.guildwars2.com/index.php?title=Electric_Enchantment_(effect)
+	{ 76710 , "Otter's Compassion" }, // https://wiki.guildwars2.com/index.php?title=Otter%27s_Compassion_(effect)
+	{ 77261 , "Familiar's Prowess" }, // https://wiki.guildwars2.com/index.php?title=Familiar%27s_Prowess_(fox)
+	{ 79230 , "Elemental Balance" }, // https://wiki.guildwars2.com/index.php?title=Elemental_Balance_(effect_1)
 
     { "Elementalist/Pistol" },
     { 71936, "Fire Bullet" },
@@ -171,7 +178,18 @@ const auto g_Buffs = std::to_array<Buff>({
     { 63243, "Force Signet" }, // https://wiki.guildwars2.com/wiki/Force_Signet_(effect)
     { 63322, "Superconducting Signet" }, // https://wiki.guildwars2.com/wiki/Superconducting_Signet_(effect)
     { { 63059, 63378 }, "Overclock Signet" }, // https://wiki.guildwars2.com/wiki/Overclock_Signet_(effect)
-
+	
+	{ "Engineer/Amalgam" },
+	{ 76837 , "Mitotic State" }, // https://wiki.guildwars2.com/index.php?title=Mitotic_State_(effect)
+	{ 77052 , "Plasmatic State" }, // https://wiki.guildwars2.com/index.php?title=Plasmatic_State_(effect)
+	{ 76680 , "Solid State" }, // https://wiki.guildwars2.com/index.php?title=Solid_State_(effect)
+	{ 76885 , "Willing Host" }, // https://wiki.guildwars2.com/index.php?title=Willing_Host_(effect)
+	{ 76667 , "Berserker Strain" }, // https://wiki.guildwars2.com/index.php?title=Berserker_Strain
+	{ 77283 , "Thorns" }, // https://wiki.guildwars2.com/index.php?title=Thorns
+	{ 76888 , "Rapacious Strain" }, // https://wiki.guildwars2.com/index.php?title=Rapacious_Strain
+	{ 77232 , "Replicating Strain" }, // https://wiki.guildwars2.com/index.php?title=Replicating_Strain
+	{ 76871 , "Titanic Strain" }, // https://wiki.guildwars2.com/index.php?title=Titanic_Strain
+	
     { "Engineer/Spear" },
     { 74447, "Focused" }, // https://wiki.guildwars2.com/wiki/Focused
     { 73129, "Lightning Rod Charges" }, // https://wiki.guildwars2.com/wiki/Lightning_Rod_Charges
@@ -221,6 +239,18 @@ const auto g_Buffs = std::to_array<Buff>({
     { 62663, "Reversal of Fortune" },
     { 62638, "Repose" },
     { 62509, "Lethal Tempo" },
+	
+	{ "Guardian/Illuminary" },
+	{ 77821 , "Radiant Justice" }, // https://wiki.guildwars2.com/index.php?title=Radiant_Justice_(effect)
+	{ 77893 , "Radiant Courage" }, // https://wiki.guildwars2.com/index.php?title=Radiant_Courage_(effect)
+	{ 77855 , "Radiant Resolve" }, // https://wiki.guildwars2.com/wiki/Radiant_Resolve_(effect)
+	{ 76751 , "Resolute Stance" }, // https://wiki.guildwars2.com/index.php?title=Resolute_Stance_(effect)
+	{ 76868 , "Stalwart Stance" }, // https://wiki.guildwars2.com/index.php?title=Stalwart_Stance_(effect)
+	{ 77143 , "Piercing Stance" }, // https://wiki.guildwars2.com/index.php?title=Piercing_Stance_(effect)
+	{ 77095 , "Effulgent Stance" }, // https://wiki.guildwars2.com/index.php?title=Effulgent_Stance_(effect)
+	{ 77265 , "Effulgent Stance (stack)" , "Effulgent Stance",10 }, // https://wiki.guildwars2.com/wiki/Effulgent_Stance_(stacking_effect)
+	{ 77333 , "Luminary's Blessing" }, // https://wiki.guildwars2.com/index.php?title=Luminary%27s_Blessing
+	{ 76736 , "Valorous Stance" }, // https://wiki.guildwars2.com/index.php?title=Valorous_Stance_(effect)
 
     { "Guardian/Spear" },
     { 73101, "Illuminated" }, // https://wiki.guildwars2.com/wiki/Illuminated
@@ -262,6 +292,14 @@ const auto g_Buffs = std::to_array<Buff>({
     { "Mesmer/Virtuoso" },
     { 63409, "Deadly Blades" },                       // https://wiki.guildwars2.com/wiki/Deadly_Blades_(effect)
 
+	{ "Mesmer/Troubadour" },
+	{ 77297 , "Lute Playing" }, // https://wiki.guildwars2.com/index.php?title=Lute_Playing
+	{ 77118 , "Flute Playing" }, // https://wiki.guildwars2.com/index.php?title=Flute_Playing
+	{ 76719 , "Drum Playing" }, // https://wiki.guildwars2.com/index.php?title=Drum_Playing
+	{ 76624 , "Harp Playing" }, // https://wiki.guildwars2.com/index.php?title=Harp_Playing
+	{ 76595 , "Scion's Reprieve" }, // https://wiki.guildwars2.com/index.php?title=Scion%27s_Reprieve
+	{ 76759 , "Altered Chord" }, // https://wiki.guildwars2.com/index.php?title=Altered_Chord_(effect)
+
     { "Mesmer/Spear" },
     { 73048, "Clarity" },                             // https://wiki.guildwars2.com/wiki/Clarity
 
@@ -293,6 +331,14 @@ const auto g_Buffs = std::to_array<Buff>({
     { "Necromancer/Harbinger" },
     { 59964, "Harbinger Shroud" }, // https://wiki.guildwars2.com/wiki/Harbinger_Shroud_(effect)
     { 62653, "Blight", 25 }, // https://wiki.guildwars2.com/wiki/Blight
+	
+	{ "Necromancer/Ritualist" },
+	{ 79105 , "Explosive Growth" }, // https://wiki.guildwars2.com/index.php?title=Explosive_Growth_(effect)
+	{ 76958 , "Ritualist's Shroud" }, // https://wiki.guildwars2.com/index.php?title=Ritualist%27s_Shroud_(effect)
+	{ { 76566, 78857 } , "Splinter Weapon", 5 }, // https://wiki.guildwars2.com/index.php?title=Splinter_Weapon_(effect)
+	{ { 76923, 79077 } , "Nightmare Weapon", 5 }, // https://wiki.guildwars2.com/index.php?title=Nightmare_Weapon_(effect)
+	{ { 77011, 78624 } , "Weapon of Warding", 3 }, // https://wiki.guildwars2.com/index.php?title=Weapon_of_Warding_(effect)
+	{ { 76764, 78313 } , "Xinrae's Weapon", 2 }, // https://wiki.guildwars2.com/index.php?title=Xinrae%27s_Weapon_(effect)
 
     { "Necromancer/Spear" },
     { 72975, "Soul Shards", 6 }, // https://wiki.guildwars2.com/wiki/Soul_Shards
@@ -356,6 +402,9 @@ const auto g_Buffs = std::to_array<Buff>({
     { 63191, "Ferocious Symbiosis" }, // https://wiki.guildwars2.com/wiki/Ferocious_Symbiosis_(effect)
     { 63404, "Unleashed Power" }, // https://wiki.guildwars2.com/wiki/Unleashed_Power
 
+	{ "Ranger/Galeshot" },
+	{ 76855 , "Wind Force", 5 }, // https://wiki.guildwars2.com/index.php?title=Wind_Force
+
     { "Ranger/Spear" },
     { 73541, "Hunter's Prowess" }, // https://wiki.guildwars2.com/wiki/Hunter%27s_Prowess
 
@@ -398,6 +447,14 @@ const auto g_Buffs = std::to_array<Buff>({
     { 62811, "Forerunner of Death" },               // https://wiki.guildwars2.com/wiki/Forerunner_of_Death_(effect)
     { 62994, "Saint of zu Heltzer" },               // https://wiki.guildwars2.com/wiki/Saint_of_zu_Heltzer_(effect)
 
+	{ "Revenant/Conduit" },
+	{ 77322 , "Shielding Hands" }, // https://wiki.guildwars2.com/index.php?title=Shielding_Hands_(effect)
+	{ { 77167, 76559 } , "Form of the Monk" }, // https://wiki.guildwars2.com/index.php?title=Form_of_the_Monk
+	{ { 76896, 77356 } , "Form of the Dervish" }, // https://wiki.guildwars2.com/index.php?title=Form_of_the_Dervish
+	{ { 76650, 76691 } , "Form of the Assassin" }, // https://wiki.guildwars2.com/index.php?title=Form_of_the_Assassin
+	{ { 76907, 77085 } , "Form of the Mesmer" }, // https://wiki.guildwars2.com/index.php?title=Form_of_the_Mesmer
+	{ { 77100, 77049 } , "Form of the Warrior" }, // https://wiki.guildwars2.com/index.php?title=Form_of_the_Warrior
+
     { "Revenant/Spear" },
     { 72962, "Crushing Abyss" }, //https://wiki.guildwars2.com/wiki/Crushing_Abyss
 
@@ -435,6 +492,21 @@ const auto g_Buffs = std::to_array<Buff>({
     { "Thief/Specter" },
     { 63207, "Shrouded Ally" },    // https://wiki.guildwars2.com/wiki/Shrouded_Ally
     { 63168, "Rot Wallow Venom" }, // https://wiki.guildwars2.com/wiki/Rot_Wallow_Venom
+	
+	{ "Thief/Antiquary" },
+	{ 76848 , "Scoundrel's Luck" }, // https://wiki.guildwars2.com/index.php?title=Scoundrel%27s_Luck_(effect)
+	{ 76785 , "Combat High", 10 }, // https://wiki.guildwars2.com/index.php?title=Combat_High_(effect)
+	{ 76768 , "Exhilarating Ephemera" }, // https://wiki.guildwars2.com/index.php?title=Exhilarating_Ephemera_(effect)
+	{ 76573 , "Prodigious Pincher", 15 }, // https://wiki.guildwars2.com/index.php?title=Prodigious_Pincher_(effect)
+	{ 78896 , "Unstable Skritt Bomb" }, // https://wiki.guildwars2.com/index.php?title=Unstable_Skritt_Bomb_(effect)
+	{ 78288 , "Chak Shield", 3 }, // https://wiki.guildwars2.com/index.php?title=Chak_Shield_(effect)
+	{ 77875 , "Metal Legion Guitar", 3 }, // https://wiki.guildwars2.com/index.php?title=Metal_Legion_Guitar_(effect)
+	{ 77835 , "Mistburn Mortar", 5 }, // https://wiki.guildwars2.com/index.php?title=Mistburn_Mortar_(effect)
+	{ 77749 , "Forged Surfer Dash" }, // https://wiki.guildwars2.com/index.php?title=Forged_Surfer_Dash_(effect)
+	{ 77931 , "Summon Kryptis Turret" }, // https://wiki.guildwars2.com/index.php?title=Summon_Kryptis_Turret_(effect)
+	{ 77830 , "Exalted Hammer" }, // https://wiki.guildwars2.com/index.php?title=Exalted_Hammer_(effect)
+	{ 78060 , "Holo-Dancer Decoy" }, // https://wiki.guildwars2.com/index.php?title=Holo-Dancer_Decoy_(effect)
+	{ 77876 , "Zephyrite Sun Crystal" }, // https://wiki.guildwars2.com/index.php?title=Zephyrite_Sun_Crystal_(effect)
 
     { "Thief/Spear" },
     { 73119, "Distracting Throw"}, // https://wiki.guildwars2.com/wiki/Distracting_Throw_(effect)
@@ -481,6 +553,13 @@ const auto g_Buffs = std::to_array<Buff>({
     { 62743, "Guns and Glory" }, // https://wiki.guildwars2.com/wiki/Guns_and_Glory_(effect)
     { 63433, "Fierce as Fire", 10}, // https://wiki.guildwars2.com/wiki/Fierce_as_Fire_(effect)
     { 68126, "Tactical Reload" }, // https://wiki.guildwars2.com/wiki/Tactical_Reload_(effect)
+	
+	{ "Warrior/Paragon" },
+	{ 76865 , "Chant of Action" }, // https://wiki.guildwars2.com/index.php?title=Chant_of_Action_(effect)
+	{ 77378 , "Chant of Recuperation" }, // https://wiki.guildwars2.com/index.php?title=Chant_of_Recuperation_(effect)
+	{ 76972 , "Chant of Freedom" }, // https://wiki.guildwars2.com/index.php?title=Chant_of_Freedom_(effect)
+	{ { 79083, 78486, 78740 } , "Brisk Pacing" }, // https://wiki.guildwars2.com/index.php?title=Brisk_Pacing_(effect)
+	{ 77242 , "We Will Never Yield!" }, // https://wiki.guildwars2.com/index.php?title=%22We_Will_Never_Yield!%22_(effect)
 
     //// Special
     { "Special Status" },
