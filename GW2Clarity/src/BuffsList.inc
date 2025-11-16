@@ -248,7 +248,7 @@ const auto g_Buffs = std::to_array<Buff>({
 	{ 76868 , "Stalwart Stance" }, // https://wiki.guildwars2.com/index.php?title=Stalwart_Stance_(effect)
 	{ 77143 , "Piercing Stance" }, // https://wiki.guildwars2.com/index.php?title=Piercing_Stance_(effect)
 	{ 77095 , "Effulgent Stance" }, // https://wiki.guildwars2.com/index.php?title=Effulgent_Stance_(effect)
-	{ 77265 , "Effulgent Stance (stack)" , "Effulgent Stance",10 }, // https://wiki.guildwars2.com/wiki/Effulgent_Stance_(stacking_effect)
+	{ 77265 , "Effulgent Stance (stack)" , "Effulgent Stance", 10 }, // https://wiki.guildwars2.com/wiki/Effulgent_Stance_(stacking_effect)
 	{ 77333 , "Luminary's Blessing" }, // https://wiki.guildwars2.com/index.php?title=Luminary%27s_Blessing
 	{ 76736 , "Valorous Stance" }, // https://wiki.guildwars2.com/index.php?title=Valorous_Stance_(effect)
 
